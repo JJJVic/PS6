@@ -1,0 +1,7 @@
+roslaunch baxter_moves_usage baxter_world.launch
+
+rosrun baxter_traj_streamer traj_interpolator_as
+
+rosrun baxter_tools enable_robot.py -e
+
+rosrun baxter_moves_usage my interesting_moves_usage
